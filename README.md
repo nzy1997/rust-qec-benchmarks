@@ -13,7 +13,11 @@ repository-relative path.
 ## Contents
 
 - `benchmarks/near_clifford/results/`: retained near-Clifford benchmark runs.
-- `ARTIFACTS.sha256`: SHA-256 manifest for every retained file.
+- `history/history-compat.pack`: commit and tree metadata needed to verify
+  evidence that names source revisions from before the results-history cleanup;
+  it intentionally contains no generated-result blobs.
+- `ARTIFACTS.sha256`: SHA-256 manifest for every retained file and compatibility
+  payload.
 
 ## Updating artifacts
 
@@ -22,7 +26,7 @@ commit the result. Never change an existing commit or reuse a revision after
 its contents have been published.
 
 ```sh
-LC_ALL=C find benchmarks/near_clifford/results -type f -print0 \
+LC_ALL=C find benchmarks/near_clifford/results history -type f -print0 \
   | LC_ALL=C sort -z \
   | xargs -0 shasum -a 256 > ARTIFACTS.sha256
 shasum -a 256 -c ARTIFACTS.sha256
