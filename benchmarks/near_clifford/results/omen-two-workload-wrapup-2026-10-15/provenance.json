@@ -1,0 +1,87 @@
+{
+  "schema": "rust-qec.two-workload-summary-archive.v1",
+  "scope": "Derived summary archive, not a raw-run replay bundle. Raw streams, executables, full correctness vectors and execution closures remain in the retained local campaign archive.",
+  "campaigns": {
+    "fair-primary": {
+      "analysis_packet": "current-master-fair-retest-analysis-actual-240",
+      "analysis_packet_seal_sha256": "c7e003945d1abefcf2c74c77aac7e1f7c04a964f4ad1cd8496c368102b0980b7",
+      "original_analysis_json_sha256": "7b02732bec1631c03d8411f7cfa40f7df2ab5a892b4d19d4d728ea85d9b8aeb1",
+      "original_comparisons_csv_sha256": "3242260b48ab33b5af946aee0d5b99f07ea4cb1e1ca33a9cb0a25d2342a81d01",
+      "scientific_review_packet": "current-master-fair-retest-scientific-review-241",
+      "scientific_review_seal_sha256": "5202dc8756405bbf49a01e0f726e2ebdcff1ced97b106ed5775361f27ad62e95",
+      "scientific_review_result_sha256": "a0455e86055c5dc8c1d038b6702e1621a4af8f90b6da1f107f322f26713c31ac",
+      "scientific_review_gate": "PASS_COMPLETE_PAIRED_TWO_WORKLOAD_ANALYSIS_DATA_ONLY",
+      "projection": "CSV copied byte-for-byte; JSON retains all primary contrasts and round ratios, all available drift/temporal diagnostics, selected policies and revision/scope fields; per-process secondary lifecycle rows omitted."
+    },
+    "fair-repeat": {
+      "analysis_packet": "current-master-fair-repeat-analysis-actual-246",
+      "analysis_packet_seal_sha256": "8570c946d33d96873da1a392ee1cfbfa3e39f77a9ddb849e7502ba039508112f",
+      "original_analysis_json_sha256": "c6dcfd3e28e5abd6b7675eeb5c96d028635fbec8c35ce44f03a71bef40c95c50",
+      "original_comparisons_csv_sha256": "03280a3121d51d82d504d176244a2ec7dd884755ed024af199bba0d619d1e9ad",
+      "scientific_review_packet": "current-master-fair-repeat-scientific-review-252",
+      "scientific_review_seal_sha256": "cbddeb00daa5a7ef6e9ec32a965fb0efc2407f72f385940a217cf96dc3e97374",
+      "scientific_review_result_sha256": "7ea93401e51acce3e6dd89ded00985d5cee469713273e2e78822d5342fa7a32f",
+      "scientific_review_gate": "PASS_COMPLETE_FROZEN_POLICY_TWO_WORKLOAD_REPEAT_PAIRED_ANALYSIS_DATA_ONLY",
+      "projection": "CSV copied byte-for-byte; JSON retains all primary contrasts and round ratios, all available drift/temporal diagnostics, selected policies and revision/scope fields; per-process secondary lifecycle rows omitted."
+    },
+    "zero-mask": {
+      "analysis_packet": "packet-zero-mask-paired-analysis-actual-279",
+      "analysis_packet_seal_sha256": "30acc104b504481bb0d2946eb114c01e1aea1647233d78db0884b872ffa98718",
+      "original_analysis_json_sha256": "ff63aa3115b7f8cc33314d9083fcb85774aa9925e5123d6517e2208341fcfa25",
+      "original_comparisons_csv_sha256": "e1e9c44405d864747c8f2bc5248c6a1745cfde5af9b427f9ebe7e8870748be50",
+      "scientific_review_packet": "packet-zero-mask-paired-analysis-scientific-review-282",
+      "scientific_review_seal_sha256": "d686e1e9af28a20ae9cf86caf971ba971fc17c3239f16b56a2c67345ee441dfc",
+      "scientific_review_result_sha256": "a246added0b10815ccaa99250005416e09466254b16b8727f00d650a5731e4ce",
+      "scientific_review_gate": "PASS_COMPLETE_EXACT_HEAD_TWO_WORKLOAD_PAIRED_ANALYSIS_DATA_ONLY",
+      "projection": "CSV copied byte-for-byte; JSON retains all primary contrasts and round ratios, all available drift/temporal diagnostics, selected policies and revision/scope fields; per-process secondary lifecycle rows omitted."
+    },
+    "output-specialization": {
+      "analysis_packet": "packet-output-mode-paired-analysis-actual-354",
+      "analysis_packet_seal_sha256": "1a0dfe26ecc4f0d023505f840eb54bd8a6af49643b860858ea150645a8cf9273",
+      "original_analysis_json_sha256": "2e3d5809f08da786e781731010c54b465191bb62848f5a5af6ef5c1661970141",
+      "original_comparisons_csv_sha256": "ea216f866403f54fa0f786471f60a20dd7704d7f2e7229de6a1b9fd74f553b6d",
+      "scientific_review_packet": "packet-output-mode-paired-analysis-scientific-review-355",
+      "scientific_review_seal_sha256": "ca7861b19701b5c2df3a272dc9e436ce3d30cfc5a4bec5d902c6ce2d225bb575",
+      "scientific_review_result_sha256": "7a9cbc8043c2659b393f432aee36a25a5631a3ae25589d0c35b4ec1c7fa7fd41",
+      "scientific_review_gate": "PASS_COMPLETE_PACKET_OUTPUT_TWO_WORKLOAD_PAIRED_ANALYSIS_DATA_ONLY",
+      "projection": "CSV copied byte-for-byte; JSON retains all primary contrasts and round ratios, all available drift/temporal diagnostics, selected policies and revision/scope fields; per-process secondary lifecycle rows omitted."
+    }
+  },
+  "diagnostics": {
+    "operation_census": {
+      "quality_packet": "current-master-native-cost-census-data-review-392-003",
+      "quality_result_sha256": "a2429552237cdbaf9a085198751aa2d126e813382156e316dc0da78aef6033f3",
+      "final_metadata_packet": "current-master-native-cost-census-data-review-392-004-002",
+      "final_metadata_seal_sha256": "6acb21ba9308f5e0bf7eab3347f3bd484e46c33e5a6ea704e28c859abf177bad",
+      "projection": "All32 rows and counters retained; large raw_* measurement/detector/parity arrays omitted. Full arrays were consumed by the retained independent DATA review."
+    },
+    "cpu_windows": {
+      "review_packet": "current-master-native-cost-cpu-data-review-397",
+      "review_seal_sha256": "2838b20ba5798f952be3493e63a516f51e2f0cf1717537e7327ebed126338bfe",
+      "original_numeric_census_sha256": "8ed4d8dbb70fe573c1bc0a47a3b2011b8deab530be0adca57fa1d15f27fc83b4",
+      "projection": "Byte-for-byte copy, all96 windows including first CPU-above-wall window."
+    }
+  },
+  "source_history_rewrite_mapping": {
+    "74b6e05ed060f48f3bad2eebe4e0f29ddf3a3ddb": "32a5cbad4b972207f001a630dec0f3813b743aa4",
+    "9852a733afbde09bcfd668f0ddbc4675bbdaa753": "5c8c7880a4e7fa1d6f11db0b76ede5e78a70f2c0"
+  },
+  "additional_local_evidence": {
+    "warm_profile_data": {
+      "packet": "current-master-warm-phase-native-data-review-327",
+      "seal_sha256": "18ab8ba8bf3dafe05628e171a8654739d531327c94b656272b0a014ce14aa696"
+    },
+    "memo_correctness": {
+      "packet": "packet-transition-memo-correctness-401-001",
+      "seal_sha256": "43dec23e074874439386793f4a206d17bea5b493ab994048070986c7de1625dd"
+    },
+    "memo_exact_head_source_review": {
+      "packet": "packet-rotation-transition-memo-source-review-402-002",
+      "seal_sha256": "6ee341a4aec4a8580cfc6e7b40bcb7f68e0ef5dd4e038512fd40cafb90072254"
+    },
+    "memo_build_rejection": {
+      "packet": "packet-transition-memo-native-build-data-review-409",
+      "seal_sha256": "1b547a0456675634a99723acd6730bb5b843a889da8c38778c8d658fbf9ad482"
+    }
+  }
+}

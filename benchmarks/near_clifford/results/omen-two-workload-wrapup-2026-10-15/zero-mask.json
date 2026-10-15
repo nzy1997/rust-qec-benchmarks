@@ -1,0 +1,275 @@
+{
+  "primary": {
+    "distillation/1/strict": {
+      "geometric_mean_speedup": 1.0046434498066252,
+      "lower": 0.9281989126580974,
+      "upper": 1.0817544864066215,
+      "round_ratios": [
+        1.1033956820118749,
+        0.8833180823856913,
+        0.8520316652505179,
+        1.044796016581419,
+        0.8966691154994859,
+        1.0301633920619608,
+        1.266932453331189,
+        1.0065153907579516,
+        1.0803797099589922,
+        1.1518440784513724,
+        0.7705521337539295,
+        1.0787566695836368
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/1/fused": {
+      "geometric_mean_speedup": 1.0129880682688008,
+      "lower": 0.9514290786250388,
+      "upper": 1.076457842392167,
+      "round_ratios": [
+        1.1737367163548504,
+        1.1291486343271078,
+        0.8545564336444814,
+        1.0671465053643847,
+        1.0090935858342902,
+        1.1422206236662795,
+        0.9549322818337898,
+        1.1413064219429772,
+        0.8804159566080525,
+        0.9611999598737021,
+        0.8708473184400735,
+        1.0434350326104758
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/64/strict": {
+      "geometric_mean_speedup": 0.9899241209651551,
+      "lower": 0.9258249203116627,
+      "upper": 1.0587370369538973,
+      "round_ratios": [
+        0.9827656771437101,
+        0.9310157638391989,
+        0.9731357524813045,
+        1.028372881478893,
+        0.9379193724205452,
+        0.9811176029950816,
+        1.209069528121741,
+        0.9784835347718032,
+        1.189261914526175,
+        1.1041531575021901,
+        0.8635154875821089,
+        0.78347201281308
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/64/fused": {
+      "geometric_mean_speedup": 1.0368947144077891,
+      "lower": 0.9909372494456463,
+      "upper": 1.0930148469787397,
+      "round_ratios": [
+        0.9951431418174375,
+        1.2983312558924134,
+        1.10648899154626,
+        1.011420345020264,
+        0.9441886802056167,
+        1.0398288112710368,
+        1.071855602176513,
+        0.9122121774347529,
+        0.9660044151803927,
+        1.0019601742064632,
+        1.0767961561059924,
+        1.067702420175288
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/1024/strict": {
+      "geometric_mean_speedup": 1.0354858848236288,
+      "lower": 0.9727049446906936,
+      "upper": 1.1084651908715977,
+      "round_ratios": [
+        0.9279261129991285,
+        1.2627410617933326,
+        0.9706078874843611,
+        1.0687994301457637,
+        1.0989533448158502,
+        0.9303223302955922,
+        0.9328549012606403,
+        1.0151696226985512,
+        0.9038218622506186,
+        0.9665068050108496,
+        1.2662092317868352,
+        1.1673573532061867
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/1024/fused": {
+      "geometric_mean_speedup": 0.9884895692952269,
+      "lower": 0.917158959109122,
+      "upper": 1.0710110263254953,
+      "round_ratios": [
+        1.1709651713848828,
+        0.9949786967575175,
+        1.0151434617465123,
+        0.8234782262569531,
+        0.9778808569783726,
+        0.9615018999724645,
+        1.3397897100937883,
+        1.0799574291030278,
+        0.9290340065832173,
+        0.9270690640315828,
+        0.9695903095176956,
+        0.7865321087298073
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/strict": {
+      "geometric_mean_speedup": 1.0885656515497262,
+      "lower": 0.9608548458924925,
+      "upper": 1.2471908530443656,
+      "round_ratios": [
+        0.9318019550455026,
+        1.111801547528578,
+        1.4743707717626144,
+        0.7680020100201401,
+        0.9127834395135991,
+        1.0359769280433786,
+        1.2319950594779951,
+        1.0130966092244387,
+        1.791455096317128,
+        0.8105654038098156,
+        1.2112040486088342,
+        1.136963675162555
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/fused": {
+      "geometric_mean_speedup": 1.022311563720195,
+      "lower": 0.9616809777759148,
+      "upper": 1.0897785179439563,
+      "round_ratios": [
+        0.9152522800879457,
+        0.9134527118580482,
+        1.1691440798927708,
+        1.0661417327727785,
+        0.9468241790164114,
+        1.0410279988821798,
+        1.2132055293004111,
+        0.9318413145951636,
+        1.195566647257514,
+        1.1150541013292892,
+        0.9503740469657708,
+        0.885761950971891
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/strict": {
+      "geometric_mean_speedup": 0.9999112169556099,
+      "lower": 0.9255349173266453,
+      "upper": 1.0811459393359888,
+      "round_ratios": [
+        0.9928808099746187,
+        0.9259030461418564,
+        0.7973148087658408,
+        0.8553374045085945,
+        1.1933597788967216,
+        1.0772389892799488,
+        0.9582192594846248,
+        1.0826609433236245,
+        1.226934210177287,
+        0.8835361749387441,
+        1.2116661577551784,
+        0.9095738031683016
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/fused": {
+      "geometric_mean_speedup": 1.0218400662814975,
+      "lower": 0.971902932366839,
+      "upper": 1.0717824352282534,
+      "round_ratios": [
+        1.1070486463303688,
+        0.9096385409057778,
+        1.1123678623393376,
+        0.879855766480384,
+        0.967334217124914,
+        1.0074215455794266,
+        1.068960133151043,
+        0.909853319500897,
+        1.1509264189344595,
+        1.0769469732857548,
+        1.1073244453783928,
+        1.0107929589273583
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/strict": {
+      "geometric_mean_speedup": 0.9834356261225496,
+      "lower": 0.9374561129508043,
+      "upper": 1.0332428587416964,
+      "round_ratios": [
+        1.1076456425707903,
+        0.9198492968017166,
+        0.8506556365330729,
+        1.1059276124828765,
+        0.963870065190215,
+        0.9585350469142939,
+        1.0318054797215304,
+        1.1374113547363913,
+        0.9576030622481961,
+        0.9397311454501455,
+        0.8949861323674693,
+        0.9777006488031494
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/fused": {
+      "geometric_mean_speedup": 0.9693158624516178,
+      "lower": 0.9393048814158362,
+      "upper": 1.0023333524567608,
+      "round_ratios": [
+        1.0911821646518358,
+        0.9244824810936602,
+        0.8884998918246164,
+        0.9441654193489881,
+        0.9309133877647613,
+        1.0450928650194364,
+        0.9068337074660825,
+        1.0133080901083678,
+        0.9690517566980531,
+        0.9463428744845565,
+        0.993433225538285,
+        0.9981939426714992
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    }
+  },
+  "source_revisions": {
+    "baseline": "74b6e05ed060f48f3bad2eebe4e0f29ddf3a3ddb",
+    "candidate": "42770197e0192bfada25f4e5ef5f909c54d10fb8"
+  },
+  "scope": "Two-workload exact74b6-vs42770197 paired screening only; no current-peer superiority/universal SOTA",
+  "interval_limit": "Approximate pointwise95% percentile; not calibrated family95% coverage",
+  "memory_limit": "Whole-process lifetime ru_maxrss; not current/scoped simulator memory"
+}
