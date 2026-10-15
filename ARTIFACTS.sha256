@@ -1563,5 +1563,17 @@ bec705adb2b1831f7286629332464205215c3028bf18c4d14884bbd63e21d8be  benchmarks/nea
 ff6838b5c2140d256c8b47f49f37c1082597c60828e625a34123f184d25137e6  benchmarks/near_clifford/results/linux-vm-x86-zero-noise-spans-2026-10-08/host.json
 85031ced2c45660f69f83447bd010fd678050d4af5740161863f8408be59e5ff  benchmarks/near_clifford/results/linux-vm-x86-zero-noise-spans-2026-10-08/summary.json
 7c96c0ca573d70499ce9a85728e72a1e39fab4efdb9c570db926418af1c0dd0a  benchmarks/near_clifford/results/linux-vm-x86-zero-noise-spans-2026-10-08/warm.csv
+298199315aaf9ddb30140ff400c3bb98251668fcca91d97b1713e77ba3db7e73  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/README.md
+8ed4d8dbb70fe573c1bc0a47a3b2011b8deab530be0adca57fa1d15f27fc83b4  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/cpu-windows.json
+3242260b48ab33b5af946aee0d5b99f07ea4cb1e1ca33a9cb0a25d2342a81d01  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/fair-primary.csv
+3e3056642435a7f47cf6e3437dd1840487e1be1030e8150ea80e9d132a91c0c1  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/fair-primary.json
+03280a3121d51d82d504d176244a2ec7dd884755ed024af199bba0d619d1e9ad  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/fair-repeat.csv
+58b45b93ba0595d34dea3c916f0680d57abeab4a49a53a4d4ba1ad3e993fa480  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/fair-repeat.json
+2fb95e149526cc42230975535a90f32d2b1e482aac29e3d56cf7bb79d4014f2b  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/operation-census.json
+ea216f866403f54fa0f786471f60a20dd7704d7f2e7229de6a1b9fd74f553b6d  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/output-specialization.csv
+50cb234339912b85e92b17dd46097a89cbde063ef1425a0301318a051cc81501  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/output-specialization.json
+c65039b2b49f4ddb30762fc768591a1ed1acf5fd6ba7c55b2225d34c80f5d971  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/provenance.json
+e1e9c44405d864747c8f2bc5248c6a1745cfde5af9b427f9ebe7e8870748be50  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/zero-mask.csv
+50e5d333c685326f114ee27158ac9afbe6f8d6bef6ca744d94d97444e7e1cb15  benchmarks/near_clifford/results/omen-two-workload-wrapup-2026-10-15/zero-mask.json
 b25a3e3c70c6010b70cb60e55ca5806939a067366e5c6223061fdfa62417dc98  benchmarks/rstim_vs_stim_simulator/fixtures/stim_surface_code_rotated_memory_z_d11_r100.dem
 2cf3965264662ef28c72728ac9854e54748b4087c9ee672af9f03924f0cceaf4  history/history-compat.pack

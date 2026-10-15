@@ -1,0 +1,565 @@
+{
+  "primary": {
+    "distillation/1/strict": {
+      "geometric_mean_speedup": 1.0033870819692894,
+      "lower": 0.8771559463863416,
+      "upper": 1.1635864283564281,
+      "round_ratios": [
+        0.7025217861182017,
+        0.9736396553773007,
+        0.7514919287680035,
+        1.4787941094154624,
+        0.8367133011893401,
+        1.0382129117979553,
+        0.8195335609426354,
+        1.055398986833827,
+        1.1066526930458358,
+        1.7268108441327066,
+        1.069167999372225,
+        0.892448991256861
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/1/fused": {
+      "geometric_mean_speedup": 1.1159277061412376,
+      "lower": 1.037451487050534,
+      "upper": 1.1950782976791952,
+      "round_ratios": [
+        1.026295886111564,
+        1.0640215937074249,
+        1.2970175270346058,
+        0.9804611582786569,
+        1.1000645049680613,
+        1.174356077474014,
+        0.851144162144688,
+        1.1189340921871151,
+        1.2177193881788924,
+        1.3471216681139817,
+        1.259988263652146,
+        1.0560569303127245
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/64/strict": {
+      "geometric_mean_speedup": 0.896513636847729,
+      "lower": 0.7757655198448153,
+      "upper": 1.0294959893541196,
+      "round_ratios": [
+        0.810451349759871,
+        0.9454179641925575,
+        0.7705807253738417,
+        1.1859769457814067,
+        0.875332063791564,
+        0.9529512660886466,
+        0.993341078870207,
+        0.8815680018935267,
+        0.7261118141981292,
+        1.4801628020831887,
+        0.9633601768500542,
+        0.5090239189290922
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/64/fused": {
+      "geometric_mean_speedup": 1.060630651535245,
+      "lower": 0.9609541207943108,
+      "upper": 1.1722146026039504,
+      "round_ratios": [
+        1.1943273161960106,
+        0.9186957967111412,
+        1.0081463823610892,
+        1.2576678512855126,
+        1.311075097428909,
+        1.0184322920389823,
+        1.4675650170097858,
+        1.0718043472821759,
+        0.9068144261165703,
+        0.8567595970297679,
+        0.7946084257291989,
+        1.1235237986180793
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/1024/strict": {
+      "geometric_mean_speedup": 0.9269591291400748,
+      "lower": 0.8161493391012226,
+      "upper": 1.041140315092593,
+      "round_ratios": [
+        1.0332796455569497,
+        1.0113234552146952,
+        0.7098712914554388,
+        1.2988315909528492,
+        1.0589616360394645,
+        0.8422377008201352,
+        0.7411756496940998,
+        0.904755800778468,
+        1.1302004148932914,
+        1.0497729877296553,
+        1.008450529205644,
+        0.5837323248304166
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "distillation/1024/fused": {
+      "geometric_mean_speedup": 0.9874651908558653,
+      "lower": 0.881720398055475,
+      "upper": 1.1373677119674739,
+      "round_ratios": [
+        0.6840880951413664,
+        0.8525130903551885,
+        0.8242248869365936,
+        0.9857161206939896,
+        1.0530147594258372,
+        0.951089288276748,
+        1.0372934018317381,
+        0.9558875666818113,
+        1.8559279110634523,
+        0.9734918626859499,
+        1.058839502635805,
+        0.9549115142645912
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/strict": {
+      "geometric_mean_speedup": 0.910468665782119,
+      "lower": 0.693327173691429,
+      "upper": 1.19538775141392,
+      "round_ratios": [
+        1.197530084795998,
+        0.4277090587202759,
+        2.186602906920818,
+        1.0124677838703071,
+        0.6625808853118668,
+        0.7062677802944486,
+        1.318628607344704,
+        1.041915660148182,
+        0.46330833320040093,
+        1.0266527432642105,
+        1.6251779622967768,
+        0.5757528114654998
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/fused": {
+      "geometric_mean_speedup": 0.8909740563508255,
+      "lower": 0.717921842099185,
+      "upper": 1.1038718616032281,
+      "round_ratios": [
+        0.9914389946003735,
+        0.9258014539640125,
+        1.1170181599143065,
+        0.5354888248499104,
+        1.3010396447111,
+        1.4780269857339103,
+        0.6506721210839067,
+        0.5135198628507072,
+        0.6451856399942906,
+        1.127228264826435,
+        0.6168900631077067,
+        1.5812098902744607
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/strict": {
+      "geometric_mean_speedup": 1.0551495652739749,
+      "lower": 0.945463692137767,
+      "upper": 1.188382977611242,
+      "round_ratios": [
+        1.3836782953011144,
+        1.554744886899482,
+        0.8468981114107048,
+        0.9844052278068753,
+        0.7756888190936854,
+        0.9164531235297555,
+        1.0244405067592801,
+        1.1984068684760494,
+        1.3424890290431086,
+        1.0043358232279487,
+        0.9522208734599198,
+        0.9476604048270124
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/fused": {
+      "geometric_mean_speedup": 1.2086444457120504,
+      "lower": 1.0134324671575479,
+      "upper": 1.4354577218991542,
+      "round_ratios": [
+        0.9111305896722518,
+        0.8956815878662919,
+        0.8721631378993534,
+        1.7558513529946977,
+        1.5169910770616135,
+        1.7013973892765561,
+        1.3263718049905615,
+        1.2539282975166053,
+        0.7149465819403581,
+        1.3747420359992486,
+        0.9703631744628086,
+        1.8993591482193874
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/strict": {
+      "geometric_mean_speedup": 1.049500474955232,
+      "lower": 0.9257887811339236,
+      "upper": 1.180651896043995,
+      "round_ratios": [
+        0.9748318096692312,
+        1.1503164146072336,
+        1.0234921799969001,
+        0.8501883224533824,
+        0.9780191269864856,
+        1.3196723711982328,
+        0.9412975149079054,
+        1.1024865975791378,
+        0.6533933610069806,
+        1.416354531667421,
+        1.4517762519957367,
+        1.0169156118235179
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/fused": {
+      "geometric_mean_speedup": 0.9041966976733549,
+      "lower": 0.7431260106844034,
+      "upper": 1.0776393868079206,
+      "round_ratios": [
+        0.6405457175275459,
+        1.1810240209558425,
+        0.7984061526554672,
+        1.2906814828633897,
+        1.0307265984125489,
+        0.42346262579624444,
+        0.9379188910503639,
+        0.8962633016741488,
+        1.3449960909436312,
+        0.9245058760091265,
+        0.6540704153175219,
+        1.2837738080686008
+      ],
+      "rounds": 12,
+      "bootstrap_replicates": 50000,
+      "interval": "approximate pointwise95% whole12-round percentile bootstrap; not calibrated family coverage"
+    }
+  },
+  "temporal_diagnostics": {
+    "distillation/1/baseline-strict": {
+      "early_six_round_median_ns": 7904.116751252874,
+      "late_six_round_median_ns": 8018.424919697964,
+      "late_over_early": 1.0144618522274447,
+      "role_position_median_ns": {
+        "0": 7370.726415094339,
+        "1": 6761.867883705207,
+        "2": 8675.017002081888,
+        "3": 7567.960950507038
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1/candidate-strict": {
+      "early_six_round_median_ns": 8510.832477826487,
+      "late_six_round_median_ns": 7311.899192679619,
+      "late_over_early": 0.8591285531385463,
+      "role_position_median_ns": {
+        "0": 8355.720588235294,
+        "1": 7760.144165114835,
+        "2": 9105.671883530482,
+        "3": 6971.091314652168
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1/candidate-fused": {
+      "early_six_round_median_ns": 7323.344055688878,
+      "late_six_round_median_ns": 6869.252599033882,
+      "late_over_early": 0.9379939747194792,
+      "role_position_median_ns": {
+        "0": 6616.223471817942,
+        "1": 7122.281726249822,
+        "2": 7212.704168469638,
+        "3": 9754.366491125415
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1/baseline-fused": {
+      "early_six_round_median_ns": 7977.07348185541,
+      "late_six_round_median_ns": 8048.986532761563,
+      "late_over_early": 1.0090149665876496,
+      "role_position_median_ns": {
+        "0": 8551.778347870702,
+        "1": 10378.856579493566,
+        "2": 7288.73250728863,
+        "3": 7402.368615840119
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/64/baseline-strict": {
+      "early_six_round_median_ns": 72819.86864221336,
+      "late_six_round_median_ns": 79087.28627445111,
+      "late_over_early": 1.0860674119453788,
+      "role_position_median_ns": {
+        "0": 74871.11210762332,
+        "1": 82422.20394736843,
+        "2": 81197.36363636363,
+        "3": 70768.6251768034
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/64/candidate-strict": {
+      "early_six_round_median_ns": 80385.35391822827,
+      "late_six_round_median_ns": 79245.49092244964,
+      "late_over_early": 0.9858200164555081,
+      "role_position_median_ns": {
+        "0": 68628.7242798354,
+        "1": 92381.99446494466,
+        "2": 79516.69793322735,
+        "3": 78974.28391167193
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/64/candidate-fused": {
+      "early_six_round_median_ns": 70705.03645489961,
+      "late_six_round_median_ns": 76972.30930255607,
+      "late_over_early": 1.0886396947359491,
+      "role_position_median_ns": {
+        "0": 70965.95319148936,
+        "1": 65495.78272251309,
+        "2": 78549.75510204081,
+        "3": 75647.85779122541
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/64/baseline-fused": {
+      "early_six_round_median_ns": 80139.98497511828,
+      "late_six_round_median_ns": 76639.0282501468,
+      "late_over_early": 0.956314482389054,
+      "role_position_median_ns": {
+        "0": 76938.80153846154,
+        "1": 65569.12975098296,
+        "2": 86975.43826086956,
+        "3": 83237.74875207986
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1024/baseline-strict": {
+      "early_six_round_median_ns": 1395831.8407460544,
+      "late_six_round_median_ns": 1113887.4009661837,
+      "late_over_early": 0.7980097375990686,
+      "role_position_median_ns": {
+        "0": 1148218.3863636365,
+        "1": 1123262.888888889,
+        "2": 1084285.6458333333,
+        "3": 1150540.7045454546
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1024/candidate-strict": {
+      "early_six_round_median_ns": 1440515.0272727273,
+      "late_six_round_median_ns": 1180842.030487805,
+      "late_over_early": 0.8197360028402123,
+      "role_position_median_ns": {
+        "0": 1032876.306122449,
+        "1": 1033604.7346938775,
+        "2": 1368587.945945946,
+        "3": 1220784.5609756098
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1024/candidate-fused": {
+      "early_six_round_median_ns": 1218708.5372093022,
+      "late_six_round_median_ns": 1169243.2053382662,
+      "late_over_early": 0.9594116801837577,
+      "role_position_median_ns": {
+        "0": 1179947.0697674418,
+        "1": 1158539.3409090908,
+        "2": 1031740.1,
+        "3": 1256772.4
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "distillation/1024/baseline-fused": {
+      "early_six_round_median_ns": 1162271.470677452,
+      "late_six_round_median_ns": 1203955.807430516,
+      "late_over_early": 1.0358645443897607,
+      "role_position_median_ns": {
+        "0": 1226707.219512195,
+        "1": 1195302.7674418604,
+        "2": 1129240.1739130435,
+        "3": 1710867.5806451612
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/baseline-strict": {
+      "early_six_round_median_ns": 26191.922865186156,
+      "late_six_round_median_ns": 27274.780377637137,
+      "late_over_early": 1.041343184997322,
+      "role_position_median_ns": {
+        "0": 24382.471964895172,
+        "1": 25015.283141570784,
+        "2": 26408.05382585752,
+        "3": 38005.27659574468
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/candidate-strict": {
+      "early_six_round_median_ns": 36209.1056917845,
+      "late_six_round_median_ns": 29462.634348947806,
+      "late_over_early": 0.8136802548987725,
+      "role_position_median_ns": {
+        "0": 37390.99327856609,
+        "1": 36799.23841059603,
+        "2": 28821.820172910662,
+        "3": 25655.919445869677
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/candidate-fused": {
+      "early_six_round_median_ns": 28439.364272902756,
+      "late_six_round_median_ns": 29558.306505662018,
+      "late_over_early": 1.039344839850214,
+      "role_position_median_ns": {
+        "0": 36575.13596491228,
+        "1": 29965.273217495505,
+        "2": 30726.348066298342,
+        "3": 21253.830004249892
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1/baseline-fused": {
+      "early_six_round_median_ns": 30938.516965537186,
+      "late_six_round_median_ns": 22623.795566793575,
+      "late_over_early": 0.7312501627661893,
+      "role_position_median_ns": {
+        "0": 19509.570425282873,
+        "1": 23141.134659879684,
+        "2": 22106.45647370747,
+        "3": 30463.29963459196
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/baseline-strict": {
+      "early_six_round_median_ns": 1533008.0055555555,
+      "late_six_round_median_ns": 1329780.177777778,
+      "late_over_early": 0.8674319853247415,
+      "role_position_median_ns": {
+        "0": 1729936.4827586208,
+        "1": 1397134.8055555555,
+        "2": 1269318.487804878,
+        "3": 1262425.55
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/candidate-strict": {
+      "early_six_round_median_ns": 1399805.1704204204,
+      "late_six_round_median_ns": 1284832.0406504064,
+      "late_over_early": 0.9178649056314868,
+      "role_position_median_ns": {
+        "0": 1294985.857142857,
+        "1": 1801688.7857142857,
+        "2": 1325769.6666666667,
+        "3": 1414576.611111111
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/candidate-fused": {
+      "early_six_round_median_ns": 1464504.4779411764,
+      "late_six_round_median_ns": 1330460.7236842106,
+      "late_over_early": 0.9084715982259018,
+      "role_position_median_ns": {
+        "0": 1171862.534883721,
+        "1": 1404610.810810811,
+        "2": 1498118.205882353,
+        "3": 1330149.3157894737
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/64/baseline-fused": {
+      "early_six_round_median_ns": 1761358.8807603687,
+      "late_six_round_median_ns": 1594417.856060606,
+      "late_over_early": 0.9052203236243966,
+      "role_position_median_ns": {
+        "0": 1520142.878787879,
+        "1": 1828612.1785714286,
+        "2": 1876806.5357142857,
+        "3": 1364981.3243243243
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/baseline-strict": {
+      "early_six_round_median_ns": 22038919.833333336,
+      "late_six_round_median_ns": 22486026.0,
+      "late_over_early": 1.0202871179734692,
+      "role_position_median_ns": {
+        "0": 22215437.0,
+        "1": 20600576.0,
+        "2": 22990179.0,
+        "3": 21087660.666666668
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/candidate-strict": {
+      "early_six_round_median_ns": 20294798.666666664,
+      "late_six_round_median_ns": 19902142.0,
+      "late_over_early": 0.9806523497416317,
+      "role_position_median_ns": {
+        "0": 19497248.0,
+        "1": 24102803.666666668,
+        "2": 20603636.333333332,
+        "3": 23769068.333333332
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/candidate-fused": {
+      "early_six_round_median_ns": 23657288.666666664,
+      "late_six_round_median_ns": 20567907.5,
+      "late_over_early": 0.869411021262989,
+      "role_position_median_ns": {
+        "0": 17608967.666666668,
+        "1": 26299842.0,
+        "2": 21014735.333333332,
+        "3": 18933372.0
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    },
+    "msc_d5_inject_cultivate_p1e-3/1024/baseline-fused": {
+      "early_six_round_median_ns": 21244256.0,
+      "late_six_round_median_ns": 19638217.5,
+      "late_over_early": 0.92440128286912,
+      "role_position_median_ns": {
+        "0": 20331013.0,
+        "1": 18967161.333333332,
+        "2": 22318783.0,
+        "3": 21660446.666666668
+      },
+      "scope": "Descriptive chronology and position only; distinct seeds and process order, not same-code control or causal drift"
+    }
+  },
+  "source_revisions": {
+    "baseline": "74b6e05ed060f48f3bad2eebe4e0f29ddf3a3ddb",
+    "candidate": "ad47858eccef9f2663285c284970daefaf33f7dd"
+  },
+  "scope": "Two-workload exact74b6-vsad47858 packet output specialization paired screening only; no current-peer superiority/universal SOTA",
+  "interval_limit": "Approximate pointwise95% percentile; not calibrated family95% coverage",
+  "memory_limit": "Whole-process lifetime ru_maxrss; not current/scoped simulator memory"
+}
